@@ -1,0 +1,116 @@
+/*=====================================*/
+/*basic setup*/
+/*=====================================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:'Titillium Web', sans-serif;
+    line-height: 1.3;
+    font-size: 1.6rem;
+   
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+ul li{
+    list-style-type: none;
+}
+.btn:link,
+ .btn:visited,
+ .btn{
+    background: #333;
+    border: 0.3rem solid #000;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    border-radius: 0.3rem;
+    display: inline-block;
+    margin-top: 4rem;
+    font-size: 1.6rem;
+}
+h2{
+    
+    font-size: 3vw;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.row{
+    margin: auto;
+    width: 100%;
+}
+h2::after{
+    content: "";
+    display: block;
+    height: 0.4rem;
+    background: #14a58c;
+    width: 86px;
+    margin: auto;
+    margin-top: 2rem;
+}
+/*=====================================*/
+/*contact section */
+/*=====================================*/
+
+.contact{
+    padding: 50px 0;
+    text-align: center;
+   
+    color: #fff;
+    text-align: center;
+    background:linear-gradient( rgba(60, 83, 153, 0.5), rgba(60, 83, 153, 0.5)),url(../images/support-24-7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+.contact h2::after{
+    background: #273a71;
+}
+.contact form{
+    margin-top: 4rem;
+    width: 90%;
+    margin-left: 5%;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+.contact input[type="tel"],
+.contact input[type="file"],
+.contact textarea{
+    background: #273a71;
+    border: 0.5rem solid #273a71;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.8rem;
+    color: #fff;
+    margin: .5rem 0;
+ 
+
+}
+.contact form ::placeholder{
+    color: #fff !important;
+    opacity: 1;
+}
+.contact .btn{
+    border:0;
+    border-bottom:  .3rem solid #299ec5;
+    background: #30bae7;
+}
+.contact .btn:hover{
+    cursor: pointer;
+}
+.little-description{
+    font-size: 2vw;
+    text-transform: capitalize;
+}
