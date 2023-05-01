@@ -6,6 +6,9 @@
 	.span_1_of_2 {
 		width: 49.2%;
 	}
+    .input-one{
+        display: inline-flex;
+    }
 }
 
 @media only screen and (max-width: 980px) {
@@ -15,4 +18,7 @@
 	.span_1_of_2 {
 		width: 49.2%;
 	}
+    .input-one{
+        display: inline-flex;
+    }
 }
