@@ -37,7 +37,7 @@ ul li{
 }
 h2{
     
-    font-size: 3vw;
+    font-size: 4vw;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 600;
@@ -111,6 +111,6 @@ h2::after{
     cursor: pointer;
 }
 .little-description{
-    font-size: 2vw;
+    font-size: 3vw;
     text-transform: capitalize;
 }
