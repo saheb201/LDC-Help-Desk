@@ -34,6 +34,7 @@ ul li{
     display: inline-block;
     margin-top: 4rem;
     font-size: 1.6rem;
+    
 }
 h2{
     
@@ -48,6 +49,7 @@ h2{
 .row{
     margin: auto;
     width: 100%;
+   
 }
 h2::after{
     content: "";
@@ -68,7 +70,7 @@ h2::after{
    
     color: #fff;
     text-align: center;
-    background:linear-gradient( rgba(60, 83, 153, 0.5), rgba(60, 83, 153, 0.5)),url(../images/support-24-7.jpg);
+    background:linear-gradient( rgba(60, 85, 161, 0.5), rgba(60, 83, 153, 0.5)),url(../images/support-24-7.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
